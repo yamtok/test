@@ -1,0 +1,14 @@
+-- Tạo một đối tượng Part mới
+local object = Instance.new("Part")
+
+-- Đặt vị trí của đối tượng
+object.Position = Vector3.new(0, 10, 0)
+
+-- Đặt kích thước của đối tượng
+object.Size = Vector3.new(4, 1, 4)
+
+-- Đặt màu sắc của đối tượng (màu đỏ)
+object.Color = Color3.new(1, 0, 0)
+
+-- Gắn đối tượng vào không gian làm việc của trò chơi
+object.Parent = game.Workspace
